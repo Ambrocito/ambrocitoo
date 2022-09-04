@@ -1,0 +1,288 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    background-color:rgb(69, 151, 179);
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    top:0px;
+    height: 250px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.head p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 60px auto;
+}
+.head p a{
+    text-decoration: none;
+    color: white;
+}
+.log{
+    position: relative;
+    display: flex;
+}
+.log ul li{
+    display: inline-block ;
+}
+input{
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 450px;
+    margin: 0 440px;
+    font-size: 15px;
+    position: relative;
+    top:-170px;
+}
+button{
+    position: relative;
+    height: 50px;
+    border-radius: 4px;
+    border:none;
+    width: 90px;
+    margin-left: 68%;
+    top: -222px;
+    background-color: rgb(35, 35, 114);
+}
+button{
+    text-decoration: none;
+    color: white;
+}
+.log li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left:1200px;
+    position: relative;
+    top: -100px;
+    font-size: 12px;
+}
+.container{
+    position: fixed;
+    top:200px;
+    left: 0;
+    right: 0;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 50px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 60%;
+    margin: 0 50px;
+    text-align:center;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    font-family: Arial;
+}
+main{
+    text-align: center;
+    margin: 370px 0px;
+}
+main li{
+    display: inline-block;
+    width: 30%;
+}
+main li img{
+    max-width: 100%;
+    height: 100px;
+    width: 150px;
+    margin: 40px;
+}
+article h2{
+    text-align: center;
+}
+article{
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 30px;
+    line-height: 2em;
+    margin: 100px auto;
+}
+.container1{
+    background-color: grey;
+    padding: 50px;
+    width: 100%;
+    max-width: 1249px;
+}
+.container1 ul{
+    margin: 0 60px;
+    white-space: nowrap;
+    max-width: 800px;
+    text-align: center;
+}
+.container1 li{
+    width: 28%;
+    display: inline-block;
+}
+.container1 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    
+}
+/* Psuedo class */
+.log li a:hover{
+    text-decoration: underline;
+}
+.container1 li a:hover{
+    text-decoration: underline;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    cursor: pointer;
+    color: pink;
+}
+main li img:hover{
+    position: relative;
+    top: -4px;
+}
+/* Responsive design */
+@media screen and (max-width: 1115px){
+    .log li a{
+        margin-left:1000px;
+    }
+    input{
+        margin: 0 280px;
+    }
+    .container1 li a{
+        font-size: 12px;
+    }
+    .container1 li{
+        width: 18%;
+    }
+}
+@media screen and (max-width: 971px){
+    .log li a{
+        margin-left:850px;
+    }
+    input{
+        margin: 0 220px;
+    }
+    .container1 li a{
+        font-size: 10px; 
+       margin: 0 0px ;
+    }
+    .container1{
+        padding:0;
+    }
+    button{
+        margin-left: 72%;
+    }
+}
+@media screen and (max-width: 425px){
+    .log li a{
+        margin-left:850px;
+    }
+    input{
+        margin: 0 76px;
+        width:250px;
+        height: 30px;
+        font-size: 10px;
+        position: relative;
+        top: -115px;
+    }
+    .container1 li a{
+        font-size: 10px;
+        margin-left: -75px;
+
+    }
+    .container1{
+        padding:20PX;
+
+    }
+    .container1 ul li{
+        display: block; 
+        text-align: justify;
+    }
+    .container1 ul{
+        margin: 0 70px; 
+    }
+    .container1 li p{
+        padding:0PX;
+        /* width: 100%; */
+    }
+    button{
+        margin-left: 44%;
+        width: 52px;
+        height: 25px;
+        font-size: 10px;
+        position: relative;
+        top: -110px;
+        text-align: center;
+    }
+    .head p{
+        font-size: 20px;
+        position: relative;
+        top: -20px;
+    }
+    nav{
+        padding: 0 ;
+        margin: 0 auto;
+        margin-top: -25px;
+    }
+    nav ul{
+        white-space: nowrap;
+        max-width: 60%;
+        margin: 0 0px;
+        text-align:justify;
+    }
+    nav li{
+        display: block;
+       }
+    nav li a{
+        font-size: 12px;
+        padding:0px;
+        margin: 10px 0; 
+    }
+    main {
+        max-width: 100%;
+        width: 100%;
+        margin: 100% auto;
+        
+    }
+    main ul{
+        margin-left: -55px;
+    }
+    main li img{ 
+        height: 60px;
+        width: 100px;
+        
+    }
+    .log li a{
+        margin-left:60px;
+        position: relative;
+        top: -1px;
+    }
+}
